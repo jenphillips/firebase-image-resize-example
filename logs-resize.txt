@@ -1,0 +1,195 @@
+2018-12-05T18:44:41.568142679Z D updateImageDownloadURL: Billing account not configured. External network is not accessible and quotas are severely limited. Configure billing account to remove these restrictions
+2018-12-05T18:44:41.574Z I updateImageDownloadURL: { bucket: 'closetchartapi.appspot.com',
+  contentType: 'image/jpeg',
+  crc32c: 'MBK9zQ==',
+  etag: 'CLrljrOsid8CEAE=',
+  generation: '1544035481399994',
+  id: 'closetchartapi.appspot.com/images/3448aedd-3748-4a99-aa32-b06a996be1b9/1544035481399994',
+  kind: 'storage#object',
+  md5Hash: 'Xvg6SFWLKcfLHQbr8vBlLg==',
+  mediaLink: 'https://www.googleapis.com/download/storage/v1/b/closetchartapi.appspot.com/o/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9?generation=1544035481399994&alt=media',
+  metageneration: '1',
+  name: 'images/3448aedd-3748-4a99-aa32-b06a996be1b9',
+  selfLink: 'https://www.googleapis.com/storage/v1/b/closetchartapi.appspot.com/o/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9',
+  size: '25394',
+  storageClass: 'STANDARD',
+  timeCreated: '2018-12-05T18:44:41.399Z',
+  timeStorageClassUpdated: '2018-12-05T18:44:41.399Z',
+  updated: '2018-12-05T18:44:41.399Z' }
+2018-12-05T18:44:41.575Z I updateImageDownloadURL: 3448aedd-3748-4a99-aa32-b06a996be1b9
+2018-12-05T18:44:41.576Z I updateImageDownloadURL: File {
+  bucket: 
+   Bucket {
+     name: 'closetchartapi.appspot.com',
+     storage: Storage {},
+     userProject: undefined,
+     acl: 
+      Acl {
+        owners: [Object],
+        readers: [Object],
+        writers: [Object],
+        pathPrefix: '/acl',
+        request_: [Function: bound wrapper],
+        default: [Object] },
+     iam: 
+      Iam {
+        request_: [Function: bound wrapper],
+        resourceId_: 'buckets/closetchartapi.appspot.com' } },
+  storage: Storage {},
+  kmsKeyName: undefined,
+  userProject: undefined,
+  name: 'images/3448aedd-3748-4a99-aa32-b06a996be1b9',
+  acl: 
+   Acl {
+     owners: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     readers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     writers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     pathPrefix: '/acl',
+     request_: [Function: bound wrapper] } }
+2018-12-05T18:44:41.576Z I updateImageDownloadURL: Getting signed url
+2018-12-05T18:44:41.578064148Z D resizeImage: Function execution started
+2018-12-05T18:44:41.578110096Z D resizeImage: Billing account not configured. External network is not accessible and quotas are severely limited. Configure billing account to remove these restrictions
+2018-12-05T18:44:41.579Z I updateImageDownloadURL: The signed url for [object Object] is https://storage.googleapis.com/closetchartapi.appspot.com/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9?GoogleAccessId=firebase-adminsdk-u8vlr%40closetchartapi.iam.gserviceaccount.com&Expires=16730323200&Signature=dXrKxJH%2BKjYeyy1T6kP9HL2qReDuWkBG%2BoV5vEpCmq2ez2bgfa9SuQ8meigIn4tzTy%2FzEFpPbguKqTBGCC9Xjx5hH41Iqu96ay9on4ZprRqgVFhcuKE877rfEJ2BlF0Y%2BC7xUR82pPkmOgEL87wRJ1BSaEgAAr01Gv0N0G3CG6vOtpCGmtZDY9Ny5Y6Jg6rxpwxrAU8m6qoOdMkcWDpMcclTQ172GpjNdVLuOqL%2FHPXhyXCDrJH8smcYfmoIpvcwNJenu6wGZesk84UzWuy9hIEsJZQSdeGjprVUFi80KoaQ3mk7iltvD4RZKO1LlNSh3zpkA2ms%2BcXW60RK%2FJr%2BTw%3D%3D.
+2018-12-05T18:44:41.583444472Z D updateImageDownloadURL: Function execution took 17 ms, finished with status: 'ok'
+2018-12-05T18:44:41.768Z I resizeImage: Image downloaded locally to  /tmp/3448aedd-3748-4a99-aa32-b06a996be1b9
+2018-12-05T18:44:41.770Z I resizeImage: Resizing image at  /tmp/3448aedd-3748-4a99-aa32-b06a996be1b9
+2018-12-05T18:44:42.315Z I resizeImage: Thumbnail created at /tmp/temp_resized_3448aedd-3748-4a99-aa32-b06a996be1b9
+2018-12-05T18:44:42.628Z I resizeImage: Cleaning up.
+2018-12-05T18:44:42.704833219Z D updateImageDownloadURL: Function execution started
+2018-12-05T18:44:42.704901537Z D updateImageDownloadURL: Billing account not configured. External network is not accessible and quotas are severely limited. Configure billing account to remove these restrictions
+2018-12-05T18:44:42.705797697Z D resizeImage: Function execution took 1129 ms, finished with status: 'ok'
+2018-12-05T18:44:42.707Z I updateImageDownloadURL: { bucket: 'closetchartapi.appspot.com',
+  contentType: 'image/jpeg',
+  crc32c: 'MBK9zQ==',
+  etag: 'CPba07Osid8CEAE=',
+  generation: '1544035482529142',
+  id: 'closetchartapi.appspot.com/images/3448aedd-3748-4a99-aa32-b06a996be1b9/1544035482529142',
+  kind: 'storage#object',
+  md5Hash: 'Xvg6SFWLKcfLHQbr8vBlLg==',
+  mediaLink: 'https://www.googleapis.com/download/storage/v1/b/closetchartapi.appspot.com/o/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9?generation=1544035482529142&alt=media',
+  metageneration: '1',
+  name: 'images/3448aedd-3748-4a99-aa32-b06a996be1b9',
+  selfLink: 'https://www.googleapis.com/storage/v1/b/closetchartapi.appspot.com/o/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9',
+  size: '25394',
+  storageClass: 'STANDARD',
+  timeCreated: '2018-12-05T18:44:42.528Z',
+  timeStorageClassUpdated: '2018-12-05T18:44:42.528Z',
+  updated: '2018-12-05T18:44:42.528Z' }
+2018-12-05T18:44:42.709Z I updateImageDownloadURL: 3448aedd-3748-4a99-aa32-b06a996be1b9
+2018-12-05T18:44:42.710Z I updateImageDownloadURL: File {
+  bucket: 
+   Bucket {
+     name: 'closetchartapi.appspot.com',
+     storage: Storage {},
+     userProject: undefined,
+     acl: 
+      Acl {
+        owners: [Object],
+        readers: [Object],
+        writers: [Object],
+        pathPrefix: '/acl',
+        request_: [Function: bound wrapper],
+        default: [Object] },
+     iam: 
+      Iam {
+        request_: [Function: bound wrapper],
+        resourceId_: 'buckets/closetchartapi.appspot.com' } },
+  storage: Storage {},
+  kmsKeyName: undefined,
+  userProject: undefined,
+  name: 'images/3448aedd-3748-4a99-aa32-b06a996be1b9',
+  acl: 
+   Acl {
+     owners: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     readers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     writers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     pathPrefix: '/acl',
+     request_: [Function: bound wrapper] } }
+2018-12-05T18:44:42.710Z I updateImageDownloadURL: Getting signed url
+2018-12-05T18:44:42.711164280Z E resizeImage: undefined
+2018-12-05T18:44:42.713Z I updateImageDownloadURL: The signed url for [object Object] is https://storage.googleapis.com/closetchartapi.appspot.com/images%2F3448aedd-3748-4a99-aa32-b06a996be1b9?GoogleAccessId=firebase-adminsdk-u8vlr%40closetchartapi.iam.gserviceaccount.com&Expires=16730323200&Signature=dXrKxJH%2BKjYeyy1T6kP9HL2qReDuWkBG%2BoV5vEpCmq2ez2bgfa9SuQ8meigIn4tzTy%2FzEFpPbguKqTBGCC9Xjx5hH41Iqu96ay9on4ZprRqgVFhcuKE877rfEJ2BlF0Y%2BC7xUR82pPkmOgEL87wRJ1BSaEgAAr01Gv0N0G3CG6vOtpCGmtZDY9Ny5Y6Jg6rxpwxrAU8m6qoOdMkcWDpMcclTQ172GpjNdVLuOqL%2FHPXhyXCDrJH8smcYfmoIpvcwNJenu6wGZesk84UzWuy9hIEsJZQSdeGjprVUFi80KoaQ3mk7iltvD4RZKO1LlNSh3zpkA2ms%2BcXW60RK%2FJr%2BTw%3D%3D.
+2018-12-05T18:44:42.718743821Z E resizeImage: undefined
+2018-12-05T18:44:42.784963130Z D updateImageDownloadURL: Function execution took 81 ms, finished with status: 'ok'
+2018-12-05T18:44:42.991460033Z E resizeImage: undefined
+2018-12-05T18:44:43.275054737Z E resizeImage: undefined
+2018-12-05T18:44:43.279627993Z E resizeImage: undefined
+2018-12-05T18:44:43.581843159Z E resizeImage: undefined
+2018-12-05T18:44:44.085732932Z E resizeImage: undefined
+2018-12-05T18:44:45.383146220Z E resizeImage: undefined
+2018-12-05T18:44:46.118383356Z E resizeImage: undefined
+2018-12-05T18:44:47.434938266Z E resizeImage: undefined
+2018-12-05T18:44:48.585152139Z E resizeImage: undefined
+2018-12-05T18:44:50.939887972Z E resizeImage: undefined
+2018-12-05T18:44:52.797485086Z E resizeImage: undefined

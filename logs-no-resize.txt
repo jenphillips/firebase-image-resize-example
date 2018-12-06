@@ -1,0 +1,96 @@
+2018-12-05T18:13:10.750708139Z D resizeImage: Function execution started
+2018-12-05T18:13:10.750799202Z D resizeImage: Billing account not configured. External network is not accessible and quotas are severely limited. Configure billing account to remove these restrictions
+2018-12-05T18:13:10.967170766Z D updateImageDownloadURL: Function execution started
+2018-12-05T18:13:10.967208625Z D updateImageDownloadURL: Billing account not configured. External network is not accessible and quotas are severely limited. Configure billing account to remove these restrictions
+2018-12-05T18:13:12.034Z I updateImageDownloadURL: { bucket: 'closetchartapi.appspot.com',
+  contentDisposition: 'inline; filename*=utf-8\'\'e0d661dd-1004-4a6f-945d-7782866bdead',
+  contentType: 'image/jpeg',
+  crc32c: 'KD80Jg==',
+  etag: 'CJzcoKylid8CEAE=',
+  generation: '1544033587965468',
+  id: 'closetchartapi.appspot.com/images/e0d661dd-1004-4a6f-945d-7782866bdead/1544033587965468',
+  kind: 'storage#object',
+  md5Hash: 'WQE08XvBQsSrrL/3dSvEAQ==',
+  mediaLink: 'https://www.googleapis.com/download/storage/v1/b/closetchartapi.appspot.com/o/images%2Fe0d661dd-1004-4a6f-945d-7782866bdead?generation=1544033587965468&alt=media',
+  metadata: { firebaseStorageDownloadTokens: 'd36a8887-d982-4fe6-b8e4-eaf71a0b75f3' },
+  metageneration: '1',
+  name: 'images/e0d661dd-1004-4a6f-945d-7782866bdead',
+  selfLink: 'https://www.googleapis.com/storage/v1/b/closetchartapi.appspot.com/o/images%2Fe0d661dd-1004-4a6f-945d-7782866bdead',
+  size: '74722',
+  storageClass: 'STANDARD',
+  timeCreated: '2018-12-05T18:13:07.965Z',
+  timeStorageClassUpdated: '2018-12-05T18:13:07.965Z',
+  updated: '2018-12-05T18:13:07.965Z' }
+2018-12-05T18:13:12.795Z I updateImageDownloadURL: e0d661dd-1004-4a6f-945d-7782866bdead
+2018-12-05T18:13:12.799Z I updateImageDownloadURL: File {
+  bucket: 
+   Bucket {
+     name: 'closetchartapi.appspot.com',
+     storage: Storage {},
+     userProject: undefined,
+     acl: 
+      Acl {
+        owners: [Object],
+        readers: [Object],
+        writers: [Object],
+        pathPrefix: '/acl',
+        request_: [Function: bound wrapper],
+        default: [Object] },
+     iam: 
+      Iam {
+        request_: [Function: bound wrapper],
+        resourceId_: 'buckets/closetchartapi.appspot.com' } },
+  storage: Storage {},
+  kmsKeyName: undefined,
+  userProject: undefined,
+  name: 'images/e0d661dd-1004-4a6f-945d-7782866bdead',
+  acl: 
+   Acl {
+     owners: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     readers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     writers: 
+      { addAllAuthenticatedUsers: [Function],
+        deleteAllAuthenticatedUsers: [Function],
+        addAllUsers: [Function],
+        deleteAllUsers: [Function],
+        addDomain: [Function],
+        deleteDomain: [Function],
+        addGroup: [Function],
+        deleteGroup: [Function],
+        addProject: [Function],
+        deleteProject: [Function],
+        addUser: [Function],
+        deleteUser: [Function] },
+     pathPrefix: '/acl',
+     request_: [Function: bound wrapper] } }
+2018-12-05T18:13:12.799Z I updateImageDownloadURL: Getting signed url
+2018-12-05T18:13:12.813Z I updateImageDownloadURL: The signed url for [object Object] is https://storage.googleapis.com/closetchartapi.appspot.com/images%2Fe0d661dd-1004-4a6f-945d-7782866bdead?GoogleAccessId=firebase-adminsdk-u8vlr%40closetchartapi.iam.gserviceaccount.com&Expires=16730323200&Signature=KWXgsSK%2FyKsMlGKeghX2LU%2FNYlS4udbSZgRabLctpLjttIhc%2B0AGYszgloxNc8HGoGMLwPY%2Fq1i98Iunsher30C5yTK%2BJ99yl7yJTJkoz9Ow44omGobTiG9Fmgfl7kvfTLrYo2f%2FQI7GoK6aZZX25SmlfxUJORakJ4xKg8nwVBTVAu6bm2DzrdPow59kQcuuoghRXh4uV%2Bv87zdlq1KAcLIq7fGtj3Nul8U2%2BOADjnEdZp9iTtXUAhC5ixZDSLkOWByYVEzMf5ew1AU5jJuGT%2BFDAV2QY2VTqaFAVJ75F%2FyVFKoLbWR0anrfh%2BioO7f7DKjxFXvS3PJoPFBuW01HZg%3D%3D.
+2018-12-05T18:13:12.829430240Z D updateImageDownloadURL: Function execution took 1864 ms, finished with status: 'ok'
+2018-12-05T18:13:12.833Z I resizeImage: Image downloaded locally to  /tmp/e0d661dd-1004-4a6f-945d-7782866bdead
+2018-12-05T18:13:12.844Z I resizeImage: No resize needed.
+2018-12-05T18:13:12.845Z I resizeImage: Cleaning up.
+2018-12-05T18:13:12.850857659Z D resizeImage: Function execution took 2101 ms, finished with status: 'ok'

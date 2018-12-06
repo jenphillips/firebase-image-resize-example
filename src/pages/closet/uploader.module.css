@@ -1,0 +1,25 @@
+.dropzone {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding: 20px;
+  vertical-align: middle;
+  border: 1px dashed black;
+}
+
+#computerUploader .dropzone:hover {
+  cursor: pointer
+}
+
+#webUploader .dropzone:hover {
+  cursor: default
+}
+
+.dropzone.active {
+  color: magenta;
+  border-color: magenta;
+}
+
+img#preview {
+  max-width: 100%;
+}
